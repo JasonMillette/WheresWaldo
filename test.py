@@ -23,5 +23,5 @@ session = InteractiveSession(config=config)
 print("TensorFlow version: {}".format(tf.__version__))
 
 #import data
-train_csv = pd.read_csv('data/train.csv')
+train_csv = pd.read_csv('train.csv')
 
